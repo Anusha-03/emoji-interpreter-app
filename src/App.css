@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css?family=Signika');
+body {
+  max-width: 1920px;
+  min-height: 95vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/450066/pexels-photo-450066.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+}
+
+.App{
+  font-family: 'Signika', sans-serif;
+  border: 2px solid none;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  /* background-color: rgb(0,201,147); */
+  min-height: 60vh;
+}
+input {
+  border: 3px solid #ccc;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 0.5rem 3rem;
+}
+h1,h2,h3{
+  color: rgb(35, 81, 99);
+}
+h1{
+  font-size: 50px;
+}
+h2,h3{
+  font-size: 30px;
+}
+span {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
